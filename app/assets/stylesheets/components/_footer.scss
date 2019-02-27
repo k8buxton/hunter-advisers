@@ -1,0 +1,39 @@
+.footer {
+  background-color: #2C2C2C;
+  margin: 0;
+  width: 100vw;
+  padding: 16px 0px 16px 40px;
+  color: white;
+}
+.footer p {
+  font-size: 12px;
+  line-height: 26px;
+}
+.no-bullets {
+  list-style:none;
+  width: 200px;
+  text-align: center;
+  padding: 0px;
+}
+.contact-details {
+  margin-top: 20px;
+}
+.contact-details li {
+  line-height: 12px;
+}
+.contact-details p {
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.contact-details a {
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  color: white !important;
+}
+.white-logo {
+  width: 200px;
+  padding-top: 10px;
+}

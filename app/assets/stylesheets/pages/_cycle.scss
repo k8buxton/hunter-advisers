@@ -1,0 +1,53 @@
+/* Basic background image styling. */
+.background-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  overflow: hidden;
+  width: 100vw;
+  position: relative;
+}
+.shade {
+  position: absolute;
+  height: 110%;
+  position: fixed;
+  z-index: -1;
+}
+
+/* Styles for the alternating / transition effect. */
+.toggle-image {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 800px;
+  position: fixed;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Styles for the specific images. */
+.first-image {
+  background-image: url('vanda.jpg');
+  z-index: -3;
+  opacity: 0;
+}
+.second-image {
+  background-image: url('https://s169923.gridserver.com/images/winterbarrel.jpg');
+  z-index: -2;
+  opacity: 0;
+}
+.third-image {
+  background-image: url('st-vincent-st.jpg');
+  z-index: -1;
+  opacity: 0;
+}
+.first-image.show {
+  opacity: 1;
+}
+.second-image.show {
+  opacity: 1;
+}
+.third-image.show {
+  opacity: 1;
+}

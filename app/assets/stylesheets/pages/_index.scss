@@ -1,5 +1,6 @@
 // Import page-specific CSS files here.
 @import "home";
+@import "cycle";
 
 h1 {
   font-family: 'Open Sans', sans-serif;
@@ -10,8 +11,9 @@ h1 {
 h2 {
 }
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
+  // font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.5px;
 }
