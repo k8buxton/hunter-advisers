@@ -2,20 +2,17 @@
   background-image: url("background.png");
   background-size: cover;
   width: 100vw;
-  // height: 100vh;
   background-position: center;
-  // position: fixed;
   background-attachment:fixed;
+  overflow: hidden;
 }
 .wrapper {
   padding: 32px;
 }
 .navbar {
-  // position: absolute;
   width: calc(100% - 64px);
   width: 100%;
-  // top: 32px;
-  padding: 16px 24px 24px 24px;
+  padding: 24px;
   color: white;
   background-image: linear-gradient(-225deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 50%);
   text-align: center;
@@ -66,15 +63,56 @@ p {
   border-bottom: 1.5px solid black;
 }
 .text-box {
-  background-image: linear-gradient(-225deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 50%);
+  background-image: linear-gradient(-225deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.9) 50%);
   width: 60%;
-  margin: auto;
+  margin: 0 auto 96px auto;
   text-align: center;
   h1 {
-    padding: 72px 32px 32px 32px;
+    padding: 72px 32px 0px 32px;
   }
   p {
-    margin: 32px;
+    margin: 40px 56px;
   }
+}
+.line {
+  width: 320px;
+}
+.footer {
+  background-color: #2C2C2C;
+  margin: 0;
+  width: 100vw;
+  padding: 16px 0px 16px 30px;
+  color: white;
+}
+.footer p {
+  font-size: 12px;
+  line-height: 26px;
+}
+.no-bullets {
+  list-style:none;
+  width: 200px;
+  text-align: center;
+  padding: 0px;
+}
+.contact-details {
+  margin-top: 20px;
+}
+.contact-details li {
+  line-height: 12px;
+}
+.contact-details p {
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.contact-details a {
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  color: white !important;
+}
+.white-logo {
+  width: 200px;
 }
 
