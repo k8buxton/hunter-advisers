@@ -1,2 +1,25 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="background">
+  <div class="wrapper">
+    <div class="navbar">
+      <%= link_to root_path, class: "logo" do %>
+        <%= image_tag 'hunter-advisers-logo.png', height: 45%>
+      <% end %>
+      <div class="navigation">
+        <%= link_to "About Us", root_path, class: smallcp(root_path) %>
+        <%= link_to "Proactive Non-Executive", root_path, class: cp(root_path) %>
+        <%= link_to "Corporate Advice", root_path, class: cp(root_path) %>
+        <%= link_to "Creating New Funds", root_path, class: cp(root_path) %>
+        <%= link_to "Corporate Roles", root_path, class: cp(root_path) %>
+        <%= link_to "Honorary Roles", root_path, class: smallcp(root_path) %>
+      </div>
+    </div>
+  </div>
+  <div class="text-box">
+    <h1>About Hunter Advisers</h1>
+    <p>David Hunter, the founder of Hunter Advisers, is an International Property Consultant specialising in the creation, operation and turnaround of property funds and companies.</p>
+    <p>David is currently chairman of two public companies, and director of another, overseeing investments in the UK, India, and South Africa. He also has private equity corporate advisory roles in the UK and France.</p>
+    <p>He has over 25 years experience as a creative and high performing fund manager and until 2005 was Managing Director of Aberdeen Asset Management's £6.5bn UK and international property fund business.</p>
+    <p>A former President of the British Property Federation, he had a key role in the introduction of REITs to the UK.</p>
+    <p style="padding-bottom: 50px;">David Hunter specialises in situations which require strategic direction, management realignment or corporate restructuring. He divides his time between Scotland and London, travelling internationally as required.</p>
+  </div>
+</div>
