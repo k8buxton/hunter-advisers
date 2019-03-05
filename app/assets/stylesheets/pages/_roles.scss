@@ -1,17 +1,50 @@
 .roles-spacing {
   text-align: left !important;
-  border-left: 1px solid black;
-  padding: 32px 0px;
+  word-break: break-word;
+  @media (min-width: 577px) {
+    // border-left: 1px solid black;
+  }
+  padding: 32px 36px 32px 6px;
   p {
-    margin: 5px 24px;
+    @media (min-width: 577px) {
+      margin: 0px 10px;
+    }
+    @media (max-width: 576px) {
+      margin: 0px;
+      font-size: 12px;
+    }
   }
   a {
     color: rgb(150, 150, 150);
   }
+  a:hover {
+    text-decoration: underline;
+  }
 }
 .roles-title {
   font-size: 14px;
-  margin: 72px 8px 0px 0px;
+  @media (min-width: 577px) {
+    margin: 38px 0px 0px 16px;
+  }
+  @media (max-width: 576px) {
+    margin: 38px 0px 0px 0px;
+    font-size: 12px;
+  }
   text-align: right;
   padding: 0px !important;
+}
+.io {
+  @media (max-width: 576px) {
+    margin-left: 24px;
+  }
+}
+.role-padding-right {
+    padding-right: 5px;
+}
+.role-padding-right {
+  margin-right: 0px;
+}
+.stag-break {
+  height: 16px;
+  margin: 40px 0px;
 }
