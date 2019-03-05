@@ -28,6 +28,7 @@
 }
 .contact-details li {
   line-height: 12px;
+  font-size: 10px;
 }
 .contact-details p {
   font-size: 10px;
@@ -39,6 +40,9 @@
   font-size: 10px;
   letter-spacing: 1px;
   color: white !important;
+}
+.contact-details a:hover {
+  text-decoration: underline;
 }
 .white-logo {
   width: 200px;

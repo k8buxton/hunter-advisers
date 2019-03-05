@@ -2,15 +2,17 @@
   text-align: left !important;
   word-break: break-word;
   @media (min-width: 577px) {
-    // border-left: 1px solid black;
   }
   padding: 32px 36px 32px 6px;
   p {
+  line-height: 1.5;
     @media (min-width: 577px) {
-      margin: 0px 10px;
+      margin: 0px 10px 8px 0px;
+      line-height: 1.5;
+      margin-bottom: 8px;
     }
     @media (max-width: 576px) {
-      margin: 0px;
+      margin: 0px 0px 8px 0px;
       font-size: 12px;
     }
   }
@@ -24,10 +26,10 @@
 .roles-title {
   font-size: 14px;
   @media (min-width: 577px) {
-    margin: 38px 0px 0px 16px;
+    margin: 34.5px 0px 0px 16px;
   }
   @media (max-width: 576px) {
-    margin: 38px 0px 0px 0px;
+    margin: 34.5px 0px 0px 0px;
     font-size: 12px;
   }
   text-align: right;
