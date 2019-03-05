@@ -1,0 +1,33 @@
+.logo-contact {
+  width: 200px;
+}
+.mm-contact {
+  @media (max-width: 992px) {
+    margin-top: 48px;
+  }
+}
+.row-padding {
+  padding: 0px 64px;
+  margin: 72px 0px;
+}
+#address {
+  p {
+  line-height: 16px;
+  margin: 8px auto;
+  }
+  a {
+    color: #333333;
+  }
+}
+#address a:hover {
+  text-decoration: underline;
+  color: rgb(180,180,180);
+}
+.container-contact {
+  p {
+
+  }
+}
+.contact-text {
+  margin: 0px !important;
+}

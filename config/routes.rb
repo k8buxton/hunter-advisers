@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   root to: 'pages#home'
-  get 'proactive', to: 'pages#proactive', as: 'proactive'
-  get 'cycle', to: 'pages#cycle', as: 'cycle'
+  get 'services', to: 'pages#services', as: 'services'
   get 'advice', to: 'pages#advice', as: 'advice'
   get 'funds', to: 'pages#funds', as: 'funds'
   get 'roles', to: 'pages#roles', as: 'roles'

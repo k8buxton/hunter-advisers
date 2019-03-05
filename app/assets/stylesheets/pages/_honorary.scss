@@ -1,0 +1,167 @@
+.honorary-link {
+  color: rgb(150, 150, 150);
+}
+.honorary-link:hover {
+  color: rgb(150, 150, 150);
+}
+.honorary-logo {
+  text-align: center;
+}
+.logo-xl {
+  height: 500px;
+}
+.sweden-flag {
+  height: 30px; margin-top: 8px;
+  transition: all 1s ease;
+}
+.sweden {
+  transition: all 1s ease;
+}
+.sweden:hover .sweden-link{
+  transform: scale(1.1);
+}
+.sweden-link {
+  transition: all 1s ease;
+  display: flex;
+  justify-content: center;
+}
+.sweden-link:hover {
+  cursor: pointer;
+}
+.card {
+  background-size: cover;
+  background-position: center;
+  display: block;
+  // margin: 72px 72px 0px 72px;
+  border-radius: 2px;
+  p {
+    color: white;
+    @media (min-width: 600px) {
+      margin: 40px 64px;
+    }
+    @media (max-width: 600px) {
+      margin: 40px auto;
+    }
+  }
+  @media (min-width: 992px) {
+    height: 300px;
+    width: 500px;
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    height: 250px;
+    width: 400px;
+  }
+  @media (min-width: 480px) and (max-width: 769px) {
+    height: 220px;
+    width: 340px;
+  }
+  @media (max-width: 480px) {
+    height: 180px;
+    width: 260px;
+  }
+  margin: auto;
+}
+.card a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+.card hr {
+  margin-top: 8px;
+  width: 100px;
+  border-bottom: 1px solid #333333;
+  opacity: 0;
+  transition: ease 1s;
+  margin-bottom: 32px;
+}
+.card:hover hr {
+  opacity: 1;
+}
+.sweden-image {
+  background-image: image-url('flag.png');
+  height: 300px;
+}
+.heriot-image {
+  background-image: image-url('heriot.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  max-height: 250px;
+  min-height: 150px;
+}
+.vanda-image {
+  background-image: image-url('vanda.jpg');
+  height: 300px;
+}
+.ahf-image {
+  background-image: image-url('ahf.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  max-height: 250px;
+  min-height: 150px;
+}
+.title {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.5px;
+  text-shadow: 0.5px 0.5px #c8c8c8;
+  opacity: 0;
+  transition: ease 1s;
+  text-decoration: none;
+  margin: 48px auto 0px auto !important;
+}
+.title-lg {
+  padding-top: 88px;
+  @media (max-width: 768px) {
+    padding-top: 72px;
+  }
+  @media (max-width: 690px) {
+    padding-top: 80px;
+  }
+  @media (max-width: 576px) {
+    padding-top: 88px;
+  }
+}
+.title-sm {
+  @media (min-width: 768px) {
+  padding-top: 80px;
+  }
+  @media (max-width: 768px) {
+    padding-top: 64px;
+  }
+  @media (max-width: 690px) {
+    padding-top: 72px;
+  }
+  @media (max-width: 576px) {
+    padding-top: 80px;
+  }
+}
+.strapline {
+  opacity: 0;
+  transition: ease 2s;
+  font-size: 12px;
+  margin-top: -24px !important;
+  margin: auto;
+}
+.strapline-hw {
+  padding-bottom: 32px;
+  // margin-top: -40px !important;
+}
+.sweden-image:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), image-url('flag.png');
+}
+
+.vanda-image:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), image-url('vanda.jpg');
+}
+.heriot-image:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), image-url('heriot.jpg');
+}
+.ahf-image:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), image-url('ahf.jpg');
+}
+.card:hover .title {
+  opacity: 1;
+  text-decoration: none;
+}
+.card:hover .strapline {
+  opacity: 1;
+  text-decoration: none;
+}
+

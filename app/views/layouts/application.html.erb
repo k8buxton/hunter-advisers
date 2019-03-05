@@ -11,7 +11,18 @@
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   </head>
   <body>
+    <div class="background-image toggle-image first-image show"></div>
+    <div class="background-image toggle-image second-image"></div>
+    <div class="background-image toggle-image third-image"></div>
+    <%= image_tag 'shade.png', class: "shade hidden-xs hidden-sm" %>
+    <%= image_tag '', class: "shade-sm visible-xs visible-sm" %>
+    <div class="wrapper">
+      <%= render "shared/navbar.html" %>
+    </div>
     <%= yield %>
+    <%= render "shared/footer.html" %>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
   </body>
