@@ -86,7 +86,7 @@
   min-height: 150px;
 }
 .vanda-image {
-  background-image: image-url('vanda.jpg');
+  background-image: image-url('vanda.png');
   height: 300px;
 }
 .ahf-image {
@@ -147,7 +147,7 @@
 }
 
 .vanda-image:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), image-url('vanda.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), image-url('vanda.png');
 }
 .heriot-image:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), image-url('heriot.jpg');
