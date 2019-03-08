@@ -1,5 +1,4 @@
 .background {
-  // background-image: url("background.png");
   background-size: cover;
   width: 100vw;
   background-position: center;
@@ -89,6 +88,6 @@ hr {
   margin-top: 40px;
 }
 .no-bottom-margin {
-  margin-bottom: 0px;
+  margin-bottom: 0px !important;
 }
 
