@@ -1,6 +1,8 @@
 <div class="text-box" style="padding-top:2px;">
   <h1>CONTACT US</h1>
-  <%= image_tag 'stag-line.png', class: "stag-break" %>
+  <div class="stag-break">
+    <%= cl_image_tag("stag-line",height: 16) %>
+  </div>
   <div id="address">
     <p>185 ST VINCENT STREET</p>
     <p>GLASGOW</p>
@@ -12,12 +14,16 @@
   <div class="container-contact">
     <div class="row row-padding">
       <div class="col-xs-12 col-md-6">
-        <%= image_tag 'dh.png', class: "logo-contact" %>
+        <div>
+          <%= cl_image_tag("dh",width: 200) %>
+        </div>
         <h2 style="padding-top: 0px;">DAVID HUNTER</h2>
         <p class="contact-text">DIRECTOR</p>
       </div>
       <div class="col-xs-12 col-md-6">
-        <%= image_tag 'dh.png', class: "logo-contact mm-contact" %>
+        <div class="mm-contact">
+          <%= cl_image_tag("dh",width: 200) %>
+        </div>
         <h2 style="padding-top: 0px;">MAIRI MURRAY</h2>
         <p class="contact-text">PERSONAL ASSISTANT</p>
       </div>
