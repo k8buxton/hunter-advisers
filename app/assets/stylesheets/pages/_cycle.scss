@@ -28,12 +28,12 @@
 
 /* Styles for the specific images. */
 .first-image {
-  background-image: image-url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552052796/vanda.jpg");
+  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552052796/vanda.jpg");
   z-index: -3;
   opacity: 0;
 }
 .second-image {
-  background-image: image-url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552052795/landscape.jpg");
+  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552052795/landscape.jpg");
   z-index: -2;
   opacity: 0;
 }
