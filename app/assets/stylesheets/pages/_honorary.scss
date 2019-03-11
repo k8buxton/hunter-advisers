@@ -75,22 +75,22 @@
   opacity: 1;
 }
 .sweden-image {
-  background-image: image-url('flag.png');
+  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552052791/flag.jpg");
   height: 300px;
 }
 .heriot-image {
-  background-image: image-url('heriot.png');
+  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552052790/heriot.png");
   background-size:contain;
   background-repeat: no-repeat;
   max-height: 250px;
   min-height: 150px;
 }
 .vanda-image {
-  background-image: image-url('vanda.png');
+  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552052796/vanda.jpg");
   height: 300px;
 }
 .ahf-image {
-  background-image: image-url('ahf.png');
+  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552052790/ahf.png");
   background-size:contain;
   background-repeat: no-repeat;
   max-height: 250px;
@@ -162,5 +162,8 @@
 .card:hover .strapline {
   opacity: 1;
   text-decoration: none;
+}
+.center {
+  align-items: center;
 }
 
