@@ -7,8 +7,7 @@
   }
 }
 .row-padding {
-  // padding: 0px 64px;
-  margin: 88px 48px;
+  margin: 48px 48px 88px 48px;
 }
 #address {
   margin: 32px 0px;
@@ -39,4 +38,11 @@
 .contact-padding-none {
   padding-top: 0px;
 }
-
+#map-margin {
+  @media (max-width: 992px) {
+    margin: 88px 24px 48px 24px;
+  }
+  @media (min-width: 993px) {
+    margin: 88px 48px 48px 48px;
+  }
+}
