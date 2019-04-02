@@ -9,12 +9,16 @@
   position: relative;
 }
 .shade {
-  position: absolute;
-  height: 110%;
-  position: fixed;
-  z-index: -1;
+  @media (min-width: 769px) {
+    position: absolute;
+    height: 110%;
+    position: fixed;
+    z-index: -1;
+  }
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
-
 /* Styles for the alternating / transition effect. */
 .toggle-image {
   position: absolute;
@@ -28,22 +32,40 @@
 
 /* Styles for the specific images. */
 .first-image {
+  @media (min-width: 769px) {
   // background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552297784/V_A_Dundee_Scotland__HuftonCrow_104m.jpg");
-  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1554194566/david-east-152757-unsplash.jpg");
-
-  z-index: -3;
-  opacity: 0;
+    background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1554194566/david-east-152757-unsplash.jpg");
+    z-index: -3;
+    opacity: 0;
+  }
+  @media (max-width: 768px) {
+    background-color: #0B323D;
+    z-index: -3;
+  }
 }
 .second-image {
-  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1554194566/clever-visuals-435873-unsplash.jpg");
-  z-index: -2;
-  opacity: 0;
+  @media (min-width: 769px) {
+  // background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552297784/V_A_Dundee_Scotland__HuftonCrow_104m.jpg");
+    background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1554194566/clever-visuals-435873-unsplash.jpg");
+    z-index: -2;
+    opacity: 0;
+  }
+  @media (max-width: 768px) {
+    background-color: #0B323D;
+    z-index: -2;
+  }
 }
 .third-image {
+  @media (min-width: 769px) {
   // background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552052798/st-vincent.jpg");
-  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1554193777/robert-bye-314215-unsplash.jpg");
-  z-index: -1;
-  opacity: 0;
+    background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1554193777/robert-bye-314215-unsplash.jpg");
+    z-index: -3;
+    opacity: 0;
+  }
+  @media (max-width: 768px) {
+    background-color: #0B323D;
+    z-index: -3;
+  }
 }
 .first-image.show {
   opacity: 1;

@@ -42,7 +42,7 @@ p {
   font-weight: 600 !important;
 }
 .logo-sm {
-  width: 200px;
+  width: 180px;
   @media (min-width: 576px) {
     margin-left: 32px;
     width: 250px;
@@ -106,4 +106,7 @@ p {
 .navbar-lewagon .dropdown-item:hover {
   color: black;
   text-decoration: none;
+}
+.cursor {
+  cursor: pointer;
 }
