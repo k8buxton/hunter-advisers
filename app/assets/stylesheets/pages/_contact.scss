@@ -1,5 +1,10 @@
 .logo-contact {
-  width: 200px;
+  @media (min-width: 577px) {
+    width: 250px;
+  }
+  @media (max-width: 576px) {
+    width: 170px;
+  }
 }
 .logo-contact-lg {
   @media (min-width: 769px) {
