@@ -28,17 +28,20 @@
 
 /* Styles for the specific images. */
 .first-image {
-  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552297784/V_A_Dundee_Scotland__HuftonCrow_104m.jpg");
+  // background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552297784/V_A_Dundee_Scotland__HuftonCrow_104m.jpg");
+  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1554194566/david-east-152757-unsplash.jpg");
+
   z-index: -3;
   opacity: 0;
 }
 .second-image {
-  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552052795/landscape.jpg");
+  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1554194566/clever-visuals-435873-unsplash.jpg");
   z-index: -2;
   opacity: 0;
 }
 .third-image {
-  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552052798/st-vincent.jpg");
+  // background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1552052798/st-vincent.jpg");
+  background-image: url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1554193777/robert-bye-314215-unsplash.jpg");
   z-index: -1;
   opacity: 0;
 }
