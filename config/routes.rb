@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   get 'roles', to: 'pages#roles', as: 'roles'
   get 'honorary', to: 'pages#honorary', as: 'honorary'
   get 'contact', to: 'pages#contact', as: 'contact'
+  get '*path' => redirect('/')
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
