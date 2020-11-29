@@ -77,6 +77,20 @@
     margin: 32px 33px 32px 0px;
   }
 }
+.logo-gcp {
+  margin-bottom: 40px;
+  height: 120px;
+  @media (min-width: 992px) {
+    margin: 10px 0px 32px 48px;
+  }
+}
+.logo-c_and_r {
+  height: 130px;
+  margin-bottom: 32px;
+  @media (min-width: 992px) {
+    margin: 4px 0px 30px 0px;
+  }
+}
 hr {
   border-bottom: 1px solid #333333;
   width: 132px;
@@ -101,5 +115,3 @@ hr {
 #cv:hover {
   color: #0B323D;
 }
-
-
