@@ -224,7 +224,7 @@ DEPENDENCIES
   pry-byebug
   pry-rails
   puma
-  rails (~> 5.2.8)
+  rails (~> 5.2.8.1)
   redis
   ruby3-backward-compatibility
   sassc-rails
