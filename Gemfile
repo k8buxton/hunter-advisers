@@ -6,7 +6,7 @@ gem 'bootsnap', require: false
 gem 'jbuilder', '~> 2.0'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma'
-gem 'rails', '~> 5.2.8.1'
+gem 'rails', '~> 5.2.8'
 gem 'redis'
 gem 'ruby3-backward-compatibility'
 
