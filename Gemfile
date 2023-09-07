@@ -16,7 +16,6 @@ gem 'bootstrap-sass', '~> 3.3'
 gem 'font-awesome-sass', '~> 5.5.0'
 gem 'sassc-rails'
 gem 'simple_form'
-# gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
 gem 'uglifier'
 gem 'webpacker'
 
