@@ -10,7 +10,6 @@ gem 'rails', '~> 5.2.8'
 gem 'redis'
 gem 'ruby3-backward-compatibility'
 
-
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3'
 gem 'font-awesome-sass', '~> 5.5.0'
